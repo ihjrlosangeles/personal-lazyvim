@@ -17,6 +17,7 @@ return {
           text_icon = "⏱️",
         },
       },
+
       { name = "System" },
     },
 
