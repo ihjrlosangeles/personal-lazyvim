@@ -9,7 +9,7 @@ vim.api.nvim_set_keymap("i", "jh", "<Esc>", { noremap = true, silent = true })
 vim.api.nvim_set_keymap("i", "<C-l>", "<Esc>:w<CR>a", { noremap = true, silent = true })
 
 -- Save Command Normal mode
-vim.api.nvim_set_keymap("n", "<C-l>", ":w", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-l>", ":w<CR>a", { noremap = true, silent = true })
 
 -- Close Suggestions
 -- vim.api.nvim_set_keymap("i", "<C-b>", "<C-e>", { noremap = true, silent = true })
