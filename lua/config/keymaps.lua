@@ -12,7 +12,7 @@ vim.api.nvim_set_keymap("i", "<C-l>", "<Esc>:w<CR>a", { noremap = true, silent =
 vim.api.nvim_set_keymap("n", "<C-l>", ":w<CR>", { noremap = true, silent = true })
 
 -- Close Suggestions
-vim.api.nvim_set_keymap("i", "<C-b>", "<C-e>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("i", "<C-p>", "<C-e>", { noremap = true, silent = true })
 
 -- Start Pomodoro Timer
 -- vim.api.nvim_set_keymap("n", "<C-p>", ":TimerStart 25m Coding<CR>", { noremap = true, silent = true })
